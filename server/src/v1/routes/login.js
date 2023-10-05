@@ -8,8 +8,6 @@ const controller = require("../controllers/dataControllers");
 //     res.status(200).send(userInfo);
 // })
 router.get("/:userName", controller.getUserInfo, controller.modifyData, controller.resData); //ミドルウェアの練習のために少し回りくどくした
-router.get("/test",(req,res)=>{
-    res.send("Hello nodejs")
-})
+
 
 module.exports = router;
