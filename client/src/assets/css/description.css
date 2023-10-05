@@ -1,0 +1,19 @@
+.repo-header{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.description-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    place-items: start;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+
+
+.each-description {
+    display: flex;
+    align-items: center;
+}

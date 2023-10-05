@@ -1,0 +1,35 @@
+.header{
+    background-color: rgb(253, 199, 172);
+    height: 250px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.userInfo {
+    flex: 30%;
+    margin-top: 30px;
+}
+
+.description {
+    flex: 70%;
+}
+
+.github-img{
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.github-name-box{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.github-name{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
