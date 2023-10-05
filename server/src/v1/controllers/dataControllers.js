@@ -11,7 +11,9 @@ exports.getUserInfo = async (req, res, next) => {
         next();
     } catch (err) {
         console.log("1111")
-        alert(err);
+        next();
+        // alert(err);
+
     }
 }
 
