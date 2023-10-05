@@ -17,6 +17,7 @@ const Login = () => {
     const submitHandler = async(e) => {
         e.preventDefault();
         try {
+            console.log("APIは飛ばしてます")
             const result = await github.getInformation(userName);
             console.log(result)
             if (result.data.message === "Not Found"){
